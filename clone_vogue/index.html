@@ -7,24 +7,61 @@
     <title>보그 코리아 (Vogue Korea)</title>
     <!-- 각 브라우저의 기본 스타일을 초기화 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <!-- 파비콘 설정 -->
+    <link rel="icon" href="./favicon.ico" />
+    <!-- 폰트 설정 -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumBarunGothic@latest/nanumbarungothicsubset.css">
     <!-- main.css -->
     <link rel="stylesheet" href="./css/main.css">
     <!-- main.js -->
     <script defer src="./js/main.js"></script>
-    <!-- 파비콘 설정 -->
-    <link rel="icon" href="./favicon.ico" />
 </head>
 
 <body>
-     <!-- 헤더 -->
-     <header id="header">
-        <!-- 로고 이미지 -->
+    <!-- 헤더 -->
+    <header id="header">
+    <!-- 로고 이미지 -->
+    <a href="/" class="logo">
         <img id="logo" src="./images/voguelogo.png" alt="로고 이미지" />
-   </header>
-   <!-- SIDE MENU -->
-   <div class="leftmenu">
-       
-   </div>
+    </a>
+    <!-- 로고 밑 가운데 메뉴 -->
+    <div class="header--primary">
+        <div class="menu">
+            <a href="http://www.vogue.co.kr/category/fashion/">FASHION</a>
+            <a href="http://www.vogue.co.kr/category/beauty/">BEAUTY</a>
+            <a href="http://www.vogue.co.kr/category/living/">LIVING</a>
+            <a href="http://www.vogue.co.kr/category/people/">PEOPLE</a>
+            <a href="http://www.vogue.co.kr/category/voguetv/">VIDEO</a>
+            <a href="http://runway.vogue.co.kr/">RUNWAY</a>
+        </div>
+    </div>
+    <!-- 왼쪽 상단 메뉴 -->
+    <div class="header-secondary">
+        <div class="social_icon">
+            <a href=""></a>
+        </div>
+    </div>
+    <!-- 오른쪽 상단 메뉴 -->
+    <ul class="header-tertiary">
+        <li class="side">
+            <div class="side_title">
+            <div class="side_name">SIDE MENU</div>
+            <span class="material-icons">
+                keyboard_arrow_down
+            </span>
+        </div>
+        <div class="side_contents">
+            <ul>
+                <li>회사 소개</li>
+                <li>광고 및 제휴</li>
+                <li>개인정보 처리방침</li>
+            </ul>
+        </div>
+        </li>
+        
+    </ul>
+
+    </header>
   
 </body>
 </html>

@@ -8,18 +8,55 @@ img {
     display: block;
 }
 
+body  { font-family: 'NanumBarunGothic', sans-serif; }
+
 /* HEADER */
 
 header {
     width: 100%;
-    position: fixed;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-header img#logo {
-    cursor: pointer;
-    margin-top: 45px;
+header .logo {
+    position: absolute;
+    top: 40px;
+    margin: 0 auto;
 }
 
+header img#logo {
+    cursor: pointer;
+    margin: auto 0;
+    /* margin-top: 45px; */
+}
+
+/* 로고 아래 가운데 메뉴 */
+
+.header--primary {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 400px;
+}
+
+.menu {
+    /* 넘치는 부분 숨김 */
+    overflow: hidden;
+}
+
+.menu a {
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    /* 밑줄 제거 */
+    text-decoration: none;
+    padding: 14px 16px;
+    color: #000;
+
+}
+
+.menu a:hover {
+    color: #f00;
+}
